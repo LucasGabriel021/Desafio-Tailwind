@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Desáfio</title>
+     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+          tailwind.config = {
+               theme: {
+                    extend: {
+                         colors: {
+                              // Primária
+                              'dark-violet': '#2d2640',
+                              'grayish-blue': '#95A9C6',
+
+                              // Neutral
+                              'very-dark-violet': '#2B272F',
+                              'dark-grayish-violet': '#837D87',
+                              'very-light-gray': '#FAFAFA'
+                         },
+                         fontFamily: {
+                              headings: ['DM Serif Display', 'serif'],
+                              body: ['Karla', 'sans-serif']
+                         }
+                    }
+               }
+          }
+     </script>
+</head>
+<body>
+     <header class="h-20 bg-red-700">
+          <div class="container mx-auto px-4 flex justify-between items-center w-full h-full">
+               <div class="">
+                    <img src="/images/logo.svg" alt="INSURE">
+               </div>
+               <div class="">
+                    <nav>
+                         <ul class="flex gap-x-4  ">
+                              <li class=""><a href="#" class="uppercase text-base text-grayish-blue">how we work</a></li>
+                              <li class=""><a href="#" class="uppercase text-base text-grayish-blue">blog</a></li>
+                              <li class=""><a href="#" class="uppercase text-base text-grayish-blue">account</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </div>
+     </header>
+</body>
+</html>
